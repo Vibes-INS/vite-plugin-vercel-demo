@@ -28,7 +28,7 @@ export default defineConfig(async () => {
         },
       ],
       isr: {
-        '/isr': { expiration: 15 }
+        '/isr/index.pageContext.json': { expiration: 15 }
       }
     },
     server: {
