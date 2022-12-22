@@ -27,6 +27,9 @@ export default defineConfig(async () => {
           addRoute: true,
         },
       ],
+      isr: {
+        '/isr': { expiration: 15 }
+      }
     },
     server: {
       port: 3000,
